@@ -1,1 +1,1 @@
-# My-CS50-Journey
+📘 This repository contains all my CS50 problem sets and weekly tasks, completed from Week 0 to Week 10. It documents my learning journey in computer science fundamentals, problem-solving 🧠, and hands-on programming 💻.
