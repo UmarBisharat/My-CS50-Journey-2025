@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<h2>Get Stock Quote</h2>
+<form action="{{ url_for('quote') }}" method="post">
+    <input type="text" name="symbol" placeholder="Stock Symbol" required>
+    <button type="submit">Lookup</button>
+</form>
+{% endblock %}
