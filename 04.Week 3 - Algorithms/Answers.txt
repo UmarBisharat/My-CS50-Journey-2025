@@ -1,0 +1,8 @@
+sort1 uses: Bubble Sort
+How do you know?: Bubble sort is fastest on already-sorted data (best case O(n)) because it only needs one pass to confirm order. sort1 runs significantly faster on sorted input than on reversed or random input, which is the hallmark of bubble sort. On reversed data it is the slowest of the three because every adjacent pair must be swapped repeatedly (worst case O(n^2)).
+
+sort2 uses: Merge Sort
+How do you know?: Merge sort has a consistent runtime of O(n log n) regardless of whether the input is sorted, reversed, or random. sort2 performs at roughly the same speed across all three input types and is the fastest on reversed and random data, which matches merge sort's guaranteed performance.
+
+sort3 uses: Selection Sort
+How do you know?: Selection sort always takes O(n^2) time no matter the input order, because it must scan the entire unsorted portion to find the minimum each time. sort3 runs at nearly the same speed on sorted, reversed, and random data, and is slower than merge sort on all input types — both characteristics of selection sort.
